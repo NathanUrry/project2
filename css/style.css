@@ -1,8 +1,11 @@
 body {
     overflow-x: hidden;
 }
+#nav {
+    background-color: darkorchid;
+}
 .navbar .nav-link {
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
@@ -10,16 +13,18 @@ body {
 }
 
 .navbar .nav-item.active {
-    border-left: #444 3px solid;
+    border-left: rgba(255, 255, 255, 0.781) 2px solid;
 }
 
 .carousel-item {
-    height: 450px;
+   
 }
 
 .carousel-image-1 {
-    background-image: url('/img/image1.jpg');
-    background-size: cover ;
+    background-image: url('/img/rg_genesiscollection_en_yellow.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
 }
 
 .carousel-image-2 {
@@ -41,6 +46,15 @@ body {
     text-align: center;
     color: white;
 }
+.btn-purple {
+    background-color: darkorchid;
+    color: white;
+}
+.btn-purple:hover {
+    color: white;
+    background-color: darkviolet;
+}
+
 
 .dark-overlay {
     position: absolute;
@@ -54,15 +68,25 @@ body {
 #video-play {
     position: relative;
     min-height: 200px;
-    background: url(/img/media.jpg);
+    background: url(/img/luthier_bench_large.jpg);
     background-attachment: fixed;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0 -300px;
     text-align: center;
+   
     color: white; 
 }
 #video-play a {
     color: white;
+}
+.text-default {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+#library-text {
+    padding-top: 1.5rem;
+    
 }
 
 #page-header {
@@ -94,6 +118,6 @@ body {
 }
 
 #main-footer {
-    background: #000015;
+    background: darkorchid;
     color: white;
 }
