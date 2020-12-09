@@ -1,6 +1,8 @@
 body {
     overflow-x: hidden;
     box-sizing: border-box;
+    /* font-family: 'Lato', sans-serif !important; */
+    font-family: 'Roboto', sans-serif !important;
 }
 #nav {
     background-color: darkorchid;
@@ -23,9 +25,7 @@ body {
 
 .carousel-image-1 {
     background-image: url('/img/rg_genesiscollection_en_yellow.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    
+    background-size: cover;
 }
 
 .carousel-image-2 {
@@ -46,6 +46,9 @@ body {
     background-repeat: no-repeat;
     text-align: center;
     color: white;
+}
+#catalog {
+    transform: translate3d();
 }
 .btn-purple {
     background-color: darkorchid;
