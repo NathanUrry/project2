@@ -62,7 +62,7 @@ body {
 #video-play {
     position: relative;
     min-height: 200px;
-    background: url(/luthier_bench_large.jpg);
+    background: url(luthier_bench_large.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
