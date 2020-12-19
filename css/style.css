@@ -29,9 +29,7 @@ body {
     border-left: rgba(255, 255, 255, 0.781) 2px solid;
 }
 
-.carousel-item {
-   
-}
+
 
 .carousel-image-1 {
     
@@ -185,4 +183,3 @@ opacity:1;
         height: 100vh;
     }
     }
-}
