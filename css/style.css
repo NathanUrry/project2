@@ -5,6 +5,15 @@ body {
     /* font-family: 'Lato', sans-serif !important; */
     font-family: 'Roboto', sans-serif !important;
 }
+.text-shadow {
+    text-shadow: 0px 1px 1px #000;
+}
+.text-shadow-dark {
+    text-shadow: 0px 1px 1px #fff0ff;
+}
+.box-shadow {
+    box-shadow: 0 0 4px 0 hsl(350, 0%, 30%)
+}
 #nav {
     background-color: darkorchid;
 }
@@ -25,17 +34,17 @@ body {
 }
 
 .carousel-image-1 {
-    background-image: url('/img/rg_genesiscollection_en_yellow.png');
+    
     background-size: cover;
 }
 
 .carousel-image-2 {
-    background: url('/img/image2.jpg');
+    
     background-size: cover;
 }
 
 .carousel-image-3  {
-    background: url('/img/image3.jpg');
+    
     background-size: cover;
 }
 
@@ -50,6 +59,11 @@ body {
 }
 #catalog {
     transform: translate3d();
+}
+.bg-body {
+    background-color: #f5f5f5;
+    background-image: linear-gradient(270deg, #c7bec6 , #fff0ff );
+    background-size: auto;
 }
 .btn-purple {
     background-color: darkorchid;
@@ -143,7 +157,27 @@ body {
     
 }
 
-#newsletter{}
+.modal-dialog {
+    max-width: 1800px;
+    margin: 200px auto;
+}
+
+
+
+.modal-body {
+position:relative;
+padding:0px;
+}
+.close {
+position:absolute;
+right:-30px;
+top:0;
+z-index:999;
+font-size:2rem;
+font-weight: normal;
+color:#fff;
+opacity:1;
+}
 
 
 @media screen and (min-width: 1200px) {

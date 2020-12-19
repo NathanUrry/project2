@@ -18,7 +18,7 @@
   <title>Bootstrap Theme</title>
 </head>
 
-<body class="bg-light">
+<body class="bg-body">
   <!-- Nav -->
 
   <nav id="nav" class="navbar navbar-expand-sm navbar-dark">
@@ -75,13 +75,13 @@
             <div id="carouselExampleControls" class="carousel slide mt-5 " data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active justify-content-center">
-                  <img src="/img/rga_axionlabel_en.png" class=" d-block mw-100" alt="...">
+                  <img src="/img/rga_axionlabel_en.png" class=" d-block mw-100 box-shadow" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="/img/rg_genesiscollection_en_yellow.png" class=" d-block mw-100" alt="...">
+                  <img src="/img/rg_genesiscollection_en_yellow.png" class=" d-block mw-100 box-shadow" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="/img/rga_standard_blue.png" class=" d-block mw-100" alt="...">
+                  <img src="/img/rga_standard_blue.png" class=" d-block mw-100 box-shadow" alt="...">
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -105,22 +105,22 @@
         <div class="row text-default">
           <div class="col-md-4 mb-4 text-center">
             <i class="fas fa-music fa-3x mb-2 icon-color"></i>
-            <h3>Guitars</h3>
+            <h3 class="text-shadow-dark">Guitars</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium? </p>
-            <a href="#" class="btn btn-purple btn-lg btn-block">Explore Guitars</a>
+            <a href="#" class="btn btn-purple btn-lg btn-block box-shadow">Explore Guitars</a>
           </div>
           
           <div class="col-md-4 mb-4 text-center">
             <i class="fas fa-cart-plus fa-3x mb-2 icon-color"></i>
-            <h3>Parts</h3>
+            <h3 class="text-shadow-dark">Parts</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, inventore.</p>
-            <a href="#" class="btn btn-purple btn-lg btn-block">Explore Parts</a>
+            <a href="#" class="btn btn-purple btn-lg btn-block box-shadow">Explore Parts</a>
           </div>
           <div class="col-md-4 mb-4 text-center">
             <i class="fas fa-toolbox fa-3x mb-2 icon-color"></i>
-            <h3>Repairs</h3>
+            <h3 class="text-shadow-dark">Repairs</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, inventore.</p>
-            <a href="#" class="btn btn-purple btn-lg btn-block">Learn More</a>
+            <a href="#" class="btn btn-purple btn-lg btn-block box-shadow">Learn More</a>
           </div>
         </div>
       </div>
@@ -133,7 +133,7 @@
     <div class="row">
       <div class="col">
         <div class="p-5">
-          <a href="#" class="video" data-video="https://www.youtube.com/embed/-qT2QS04zaM" data-toggle="modal" data-target="#videoModal"><i class="fas fa-play fa-3x"></i></a>
+          <a href="#" class="video video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/-qT2QS04zaM" data-target="#myModal"><i class="fas fa-play fa-3x"></i></a>
           <h1>See Our Work</h1>
         </div>
       </div>
@@ -147,9 +147,9 @@
       <div class="container">
         <div class="row"> 
           <div class="col-md-6 align-self-center text-default">
-            <h3>Complete Ibanez Library</h3>
+            <h3 class="text-shadow-dark">Complete Ibanez Library</h3>
             <p id="library-text">All of the information you could need about Ibanez guitars in one place! Look up the age of your guitar and view the entire library of Ibanez catalogs since 1978!</p>
-            <a href="about.html" class="btn btn-purple btn-lg mb-5">View Catalogs</a>
+            <a href="about.html" class="btn btn-purple btn-lg mb-5 box-shadow">View Catalogs</a>
           </div>
           <div class="col-md-6">
             <img src="/img/PG_ibanez_catalog.jpg" id="catalog" alt="" class="img-fluid rounded rounded-lg">
@@ -165,7 +165,7 @@
     <div id="gallery">
       <div class="container">
         <div class="row justify-content-center pt-5">
-          <h2 class="text-center text-white">Recently Stocked Instruments
+          <h2 class="text-center text-white text-shadow">Recently Stocked Instruments
 
           </h2>
         </div>
@@ -200,12 +200,12 @@
         <div class="container d-flex justify-content-center align-items-end py-5">
           <div class="row pt-3">
             <div class="col">
-              <h2 class="text-center text-white">Sign Up For Our Newsletter</h2>
+              <h2 class="text-center text-white text-shadow">Sign Up For Our Newsletter</h2>
               <p class="text-white text-center">Sign up for our newsletter to recieve the latest news and recieve a discount on your first order!</p>
               <form  class="form-inline justify-content-center pt-4">
                 <input type="text" class="form-control form-control-lg mb-2 mr-2" placeholder="Enter Name">
                 <input type="email" class="form-control form-control-lg mb-2 mr-2" placeholder="Enter Email">
-                <button class="btn btn-purple btn-lg mb-2">Submit</button>
+                <button class="btn btn-purple btn-lg mb-2 box-shadow">Submit</button>
               </form>
             </div>
           </div>  
@@ -218,7 +218,7 @@
   <div class="container d-flex align-items-stretch justify-content-center">
     <div class="row">
       <div class="col align-self-end">
-        <p>Copyright &copy; <span id="year"></span> Ibanez Rules</p>
+        <p class="text-shadow">Copyright &copy; <span id="year"></span> Ibanez Rules</p>
       </div>
     </div>
   </div>
@@ -259,6 +259,36 @@
 </div>
 
 
+    
+  
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body bg-none">
+  
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+  </div>
+          
+          
+        </div>
+  
+      </div>
+    </div>
+  </div> 
+    
+    
+    
+  </div>
+
+
 
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
@@ -288,17 +318,43 @@
                 $(this).ekkoLightbox();
             });
 
-      // Video Play
-$(function () {
-      // Auto play modal video
-      $(".video").click(function () {
-        var theModal= $(this).data("target"),
-        videoSRC = $(this).attr("data-video"),
-        videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
-          $(theModal + ' iframe').attr('src', videoSRC);
-      });
-   
-  });
+           
+$(document).ready(function() {
+
+// Gets the video src from the data-src on each button
+
+var $videoSrc;  
+$('.video-btn').click(function() {
+    $videoSrc = $(this).data( "src" );
+});
+console.log($videoSrc);
+
+  
+  
+// when the modal is opened autoplay it  
+$('#myModal').on('shown.bs.modal', function (e) {
+    
+// set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+$("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
+})
+  
+
+
+// stop playing the youtube video when I close the modal
+$('#myModal').on('hide.bs.modal', function (e) {
+    // a poor man's stop video
+    $("#video").attr('src',$videoSrc); 
+}) 
+    
+    
+
+
+  
+  
+// document ready  
+});
+
+
   </script>
 </body>
 
