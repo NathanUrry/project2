@@ -2,7 +2,6 @@ body {
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    /* font-family: 'Lato', sans-serif !important; */
     font-family: 'Roboto', sans-serif !important;
 }
 .site-wrapper {
@@ -65,7 +64,7 @@ body {
 #video-play {
     position: relative;
     min-height: 200px;
-    background: url(luthier_bench_large.jpg);
+    background: url(img/luthier_bench_large.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
